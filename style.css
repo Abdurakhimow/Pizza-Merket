@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+    box-sizing: border-box !important;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    height: 768px;
+    width: 100%;
+    background: url(./images/header-banner.jpg) no-repeat center center / cover;
+}
+.call-me-btn{
+    border: none;
+    border-radius: 24px;
+    background: #68bf3b;
+    height: 50px;
+    width: 200px;
+    transition: 500ms;
+}
+.call-me-btn:hover{
+    box-shadow: 200px 0px 0px 0px rgba(15,182,44,1) inset;
+    -webkit-box-shadow: 200px 0px 0px 0px rgba(15,182,44,1) inset;
+    -moz-box-shadow: 200px 0px 0px 0px rgba(15,182,44,1) inset;
+}
+.tel-number{
+    font-size: 24px;
+    transition: 500ms;
+    
+}
+.tel-number:hover{
+    text-shadow: 0px 0px 3px rgba(255,255,255,1);
+}
+.navigation{
+    width: 1110px;
+    height: 50px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.nav-contact{
+    width: 480px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.pizzeria-title{
+    transition: 500ms;
+}
+.pizzeria-title:hover{
+    text-shadow: 0px 0px 3px rgba(255,255,255,1);
+}
+.header-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+.header-title-h3-1{
+    font-weight: 900;
+    font-size: 18px;
+}
+h1{
+    font-weight: 900;
+    font-size: 72px;
+    margin-top: 33px;
+    margin-bottom: 39px;
+}
+.header-title-h3-2{
+    font-size: 18px;
+}
+.full-menu-btn{
+    margin-top: 50px;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 24px;
+    background: #18fa3b;
+    background: rgb(105,207,0);
+    background: linear-gradient(180deg, rgba(105,207,23,1) 0%, rgba(61,135,1,1) 95%);
+    transition: 500ms;
+}
+.full-menu-btn:hover{
+    box-shadow: 200px 0px 9px 0px rgba(125,255,0,0.75) inset;
+    -webkit-box-shadow: 200px 0px 9px 0px rgba(125,255,0,0.75) inset;
+    -moz-box-shadow: 200px 0px 9px 0px rgba(125,255,0,0.75) inset;
+}
+.section-1{
+    display: flex;
+    height: 555px;
+    width: 100%;
+}
+.section-1-items{
+    height: 439px;
+    width: 1083px;
+}
+.section-1-text h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #68bf3b;
+}
+.section-1-text p{
+    width: 708px;
+    color: #bdbdbd;
+    font-size: 18px;
+    line-height: 38px;
+}
+span{
+    font-size: 24px;
+    font-weight: bold;
+    color: #bdbdbd;
+    margin-right: 61px;
+}
+.section-2{
+    margin-top: 20px;
+    height: 1335px;
+    width: 100%;
+}
+.box-text h2{
+    font-size: 30px;
+    color: #a6a6a6;
+}
+.box-text p{
+    color: #bebebe;
+    font-size: 14px;
+    line-height: 25px;
+}
+.price-button button{
+    margin-top: 32px;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 24px;
+    background: #18fa3b;
+    background: rgb(105,207,0);
+    background: linear-gradient(180deg, rgba(105,207,23,1) 0%, rgba(61,135,1,1) 95%);
+}
+.price-button h2{
+    font-weight: 700;
+    font-size: 25px;
+    color: #a6a6a6;
+    margin: 0;
+}
+.price-button h2 span{
+    font-weight: 300;
+    font-size: 18px;
+    color: #a6a6a6;
+    margin: 0;
+}
+.box{
+    width: 1110px;
+    height: 250px;
+    margin-top: 50px;
+}
+.price-button{
+    margin-top: 30px;
+    width: 200px;
+    height: 104px;
+    margin-left: 195px;
+}
+.box-elements{
+    padding: 0;
+}
+.row{
+    margin: 0;
+    padding: 0;
+
+}
+.pizza-elements-title{
+    margin-bottom: 30px;
+}
+.sale button{
+    height: 60px;
+    width: 60px;
+    background: #68cd16;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 110px;
+    border: none;
+    padding: 0;
+    transition: 300ms;
+}
+.sec-2-title{
+    color: #e1f5d0;
+    font-size: 36px;
+    font-weight: 700;
+}
+.pizza-img{
+    margin-right: 30px;
+}
+.section-3{
+    margin-top: 10px;
+    align-items: center;
+    height: 625px;
+    width: 100%;
+}
+.sec-3-elements{
+    display: flex;
+    width: 1110px;
+}
+.box-3 p{
+    text-align: center;
+    font-size: 14px;
+    color: #a6a6a6;
+}
+.box-3 h5{
+    text-align: center;
+    font-weight: 700;
+    color: #a6a6a6;
+    margin-top: 31px;
+    margin-bottom: 21px;
+}
+footer{
+    background: #000;
+    height: 200px;
+    width: 100%;
+}
+.footer-info{
+    font-weight: 100;
+    color: white;
+    margin-top: 50px;
+    margin-left: 310px;
+}
+.navigation-bottom{
+    width: 1110px;
+    height: 50px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+/* MEDIA */
+@media (max-width: 992px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 50px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    header{
+        background-size: cover;
+        width: 112%;
+        height: 635px;
+    }
+    .header-title-h3-1{
+        font-size: 16px;
+    }
+    .header-title-h3-2{
+        font-size: 17px;
+    }
+    .header-title{
+        margin-top: 140px;
+    }
+    .tel-number{
+        font-size: 18px;
+    }
+    .call-me-btn{
+        width: 190px;
+        height: 45px;
+    }
+    .section-1-text h2{
+        font-size: 31px;
+        margin-bottom: 22px;
+    }
+    .section-1-items{
+        margin-top: 0px;
+
+    }
+    .section-1-items img{
+        width: 110px;
+    }
+    .section-1-text p{
+        line-height: 32px;
+        width: 500px;
+    }
+    .section-1{
+        padding: 30px;
+        height: 470px;
+    }
+    .sec-1-row{
+        padding-left: 30px;
+    }
+    .box-text h2{
+        font-size: 24px;
+    }
+    .price-button{
+        margin-left: 90px;
+        margin-top: 110px;
+    }
+    .price-button button{
+        height: 44px;
+        width: 189px;
+        font-size: 14px;
+        margin-top: 23px;
+    }
+    .price-button h2{
+        font-size: 22px;
+        margin-right: 12px;
+    }
+    .sec-2-title{
+        color: #55b9017a;
+        margin-left: 460px;
+        margin-top: 20px;
+    }
+    .box{
+        margin-left: 58px;
+    }
+    footer{
+        width: 112%;
+    }
+    .footer-info{
+        margin-left: 251px;
+    }
+    .section-2{
+        height: 1253px;
+    }
+}
+
+@media (max-width: 768px) {
+    header{
+        width: 144.5%;
+        height: 543px;
+    }
+    .tel-number{
+        font-size: 15px;
+    }
+    .call-me-btn{
+        width: 160px;
+        font-size: 13px;
+    }
+    .header-title{
+        margin-top: 90px;
+    }
+    .header-title-h3-1{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    h1{
+        font-size: 44px;
+        font-weight: 800;
+    }
+    .section-1-text h2{
+        width: 482px;
+        font-size: 36px;
+    }
+    .section-1 .items img{
+        font-size: 20px;
+    }
+    .section-1{
+        width: 120%;
+    }
+    .row .col-12{
+        max-width: 130%;
+    }
+    .sec-3-elements{
+        display: flex;
+        padding-top: 70px;
+        margin-top: 50px;
+    }
+    footer{
+        width: 144.5%;
+    }
+    .footer-info{
+        margin-left: 115px;
+    }
+}
